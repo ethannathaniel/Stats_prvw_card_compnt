@@ -1,9 +1,9 @@
 # Stats preview card component
 Stats preview card component challenge hub
 
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component Solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
   - [The challenge](#the-challenge)
