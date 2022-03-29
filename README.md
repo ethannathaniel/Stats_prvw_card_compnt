@@ -24,7 +24,11 @@ Users should be able to:
 
 Desktop view; 
 
-![image text](./screenshots/sc-1.png)
+ ![image text](./screenshots/sc-1.png)
+
+Tablet view;
+
+ ![image text](./screenshots/sc-3.png)
 
 Mobile view;
 
