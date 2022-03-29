@@ -17,9 +17,9 @@
       --White_main/*(main heading, stats)*/: hsl(0, 0%, 100%);
       --Slightly_transparent_white_main/*(main paragraph)*/: hsla(0, 0%, 100%, 0.75);
       --Slightly_transparent_white_stat/*(stat headings)*/: hsla(0, 0%, 100%, 0.6);
-      --lg: 24px;
-      --md: 15px;
-      --sm: 12px;
+      --lg: 32px;
+      --md: 22px;
+      --sm: 14px;
     }
     body {
       margin: 0;
@@ -37,20 +37,61 @@
     }
     .container_card {
       height: 400px;
-      width: 800px;
+      width: 920px;
       background-color: var(--Dark_desaturated_blue);
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      box-sizing: border-box;
+      border-radius: 12px;
     }
     .card_left {
-      display: grid;
-      grid-template-rows: 1fr 1fr auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 36px;
+    }
+
+    .card_left_info > h1 {
+      color: var(--White_main);
+      font-size: var(--lg);
+    }
+    .card_left_info > h1 > span {
+      color: var(--Soft_violet);
+    }
+
+    .card_left_info > p {
+      color: var(--Slightly_transparent_white_main);
+      font-size: var(--sm);
+      text-align: left;
+      line-height: 24px;
+    }
+    .card_left_info_footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .card_left_info_footer_triple p:nth-child(1) {
+      color: var(--White_main);
+      font-weight: bold;
+      font-size: var(--md);
+      margin: 18px 0 0 0;
+    }
+    .card_left_info_footer_triple p:nth-child(2) {
+      color: var(--Slightly_transparent_white_stat);
+      font-size: var(--sm);
+      margin: 0;
+      text-transform: uppercase;
+    }
+    .card_right {
+      background-color: var(--Soft_violet);
+      filter: saturate(4) grayscale(50%);
     }
     .card_img {
-      width: 400px;
+      width: 460px;
       height: 100%;
       object-fit: cover;
+      filter: opacity(60%);
     }
 
     .attribution { 
@@ -61,6 +102,7 @@
     .attribution a { 
       color: hsl(228, 45%, 44%); 
     }
+    
   </style>
 </head>
 <body>
@@ -68,7 +110,7 @@
     <div class="container_card">
       <div class="card_left">
         <div class="card_left_info">
-        <h1>Get insights that help your business grow.</h1>
+        <h1>Get <span>insights</span>  that help your business grow.</h1>
         <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.</p>
         </div>
