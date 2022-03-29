@@ -36,8 +36,8 @@ Mobile view;
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-stats-preview-card-component-css-grid-and-flexbox-S11jIAyQ9)
+- Live Site URL: [Add live site URL here](https://ethannathaniel.github.io/Stats_prvw_card_compnt/)
 
 ### Built with
 
@@ -56,5 +56,5 @@ I learned how to use succesfuly CSS grid & Flexbox
 ## Author
 
 - Linkedin - [Imanol Estevez](https://www.linkedin.com/in/imanol-iet-web/)
-- Frontend Mentor - [@ethannathaniel](https://www.frontendmentor.io/profile/ethannathaniel)
+- Frontend Mentor - [@ethannathaniel]https://ethannathaniel.github.io/Stats_prvw_card_compnt/)
 - Instagram - [@imanol.aa](https://www.instagram.com/imanol.aa/)
